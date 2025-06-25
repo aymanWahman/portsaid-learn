@@ -11,7 +11,7 @@ export default function Header({ locale }: HeaderProps) {
   const navItems = [
     { href: '/', label: isArabic ? 'الرئيسية' : 'Home' },
     { href: '/about', label: isArabic ? 'عن الموقع' : 'About' },
-    { href: '/contact', label: isArabic ? 'تواصل' : 'Contact' },
+    { href: '/contact', label: isArabic ? 'تواصل ' : 'Contact' },
   ];
 
   return (
